@@ -12,7 +12,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_220_328_132_530) do
+ActiveRecord::Schema.define(version: 20_220_328_140_634) do
   create_table 'courses', force: :cascade do |t|
     t.string 'name'
     t.text 'description'
@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(version: 20_220_328_132_530) do
     t.datetime 'created_at', precision: 6, null: false
     t.datetime 'updated_at', precision: 6, null: false
     t.date 'date_of_birth'
-    t.string 'address'
     t.string 'contact'
   end
 end
